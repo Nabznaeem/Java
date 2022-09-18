@@ -1,6 +1,6 @@
 package src;
 //Write a program to print your name to console.
-import java.util.Scanner;
+import java.util.*;
 
 public class printName {
     public static void main(String[] args) {
