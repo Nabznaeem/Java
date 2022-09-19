@@ -1,5 +1,5 @@
 package src;
-
+//Given a string, write a program to find number of vowels in that string.
 import java.util.Scanner;
 
 public class Vowels {
