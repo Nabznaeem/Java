@@ -3,7 +3,7 @@ package src;
 public class ArrInt {
     public static void main(String[] args) {
 
-        int a[]={12,4,1,3,13,56,189,456,2,10};
+        int[] a={12,4,1,3,13,56,189,456,2,10};
 
         int s = a[0];
         int l = a[0];
