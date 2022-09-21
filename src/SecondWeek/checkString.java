@@ -17,8 +17,8 @@ public class checkString {
         //String str2="Java";
         boolean i= str1.contains(str2);
         if(i)
-            System.out.println("True.String 1 contains String 2");
+            System.out.println("True.String1 contains String2");
         else
-            System.out.println("False. String 1 does not contain String 2");
+            System.out.println("False. String1 does not contain String2");
     }
 }
