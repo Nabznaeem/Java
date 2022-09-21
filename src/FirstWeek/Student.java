@@ -2,7 +2,7 @@
 
 getName() that returns "Name" from state.
 setName() that takes an argument and updates the state variable "Name".*/
-package src;
+package src.FirstWeek;
 public class Student {
 
         private String Name; // 0

@@ -1,4 +1,4 @@
-package src;
+package src.FirstWeek;
 //Given an integer array, write a program to find the largest and smallest number in the array. Do not use Arrays.sort
 public class ArrInt {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src;
+package src.FirstWeek;
 //Write a program to print your name to console.
 import java.util.*;
 

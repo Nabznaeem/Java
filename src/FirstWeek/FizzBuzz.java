@@ -1,4 +1,4 @@
-package src;
+package src.FirstWeek;
 /*FizzBuzz program
 
         Print numbers from 1 to 100.

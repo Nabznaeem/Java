@@ -1,4 +1,4 @@
-package src;
+package src.FirstWeek;
 
 public class MyStudent {
     public static void main(String[] args) {

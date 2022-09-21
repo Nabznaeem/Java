@@ -1,4 +1,4 @@
-package src;
+package src.SecondWeek;
 /*Given a Sentence and a String, write a program to check if the sentence contains the String.
 input - "I am learning Java" , and "Java"
 output - True
