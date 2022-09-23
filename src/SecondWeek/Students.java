@@ -1,10 +1,12 @@
 package src.SecondWeek;
-import java.util.*;
+
+import static java.lang.Double.compare;
+
 public class Students implements Comparable<Students>{
     public String FirstName,LastName;
-    public float GPA;
+    public double GPA;
 
-    public Students(String FirstName,String LastName,float GPA)
+    public Students(String FirstName,String LastName,double GPA)
     {
         this.FirstName=FirstName;
         this.LastName=LastName;
@@ -18,13 +20,14 @@ public class Students implements Comparable<Students>{
         return LastName;
     }
 
-    public float getGPA() {
+    public double getGPA() {
         return GPA;
     }
 
     @Override
     public int compareTo(Students o) {
-        return 0;
+        return compare(GPA, o.GPA);
+
     }
 
 
