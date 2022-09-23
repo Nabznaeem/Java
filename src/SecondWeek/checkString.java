@@ -13,8 +13,8 @@ public class checkString {
         String str1 = s.nextLine();
         System.out.println("Enter the string 2: ");
         String str2 = s.nextLine();
-        // String str1="I am learning Java";
-        //String str2="Java";
+        /* String str1="I am learning Java";
+        String str2="Java";*/
         boolean i= str1.contains(str2);
         if(i)
             System.out.println("True.String1 contains String2");
