@@ -14,8 +14,7 @@ public class SortArr {
         s[7] = new Students("Name8","LName8", 2.6d);
 
         System.out.println("Array before sort:");
-        for (Students p : s) {
-            System.out.println(p.getFirstName() + "  " + p.getLastName() + " " + p.getGPA());}
+        for (Students p : s) System.out.println(p.getFirstName() + "  " + p.getLastName() + " " + p.getGPA());
         Arrays.sort(s, (o1, o2) -> {
             Double d1 = o1.getGPA();
             Double d2 = o2.getGPA();
