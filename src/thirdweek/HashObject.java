@@ -20,7 +20,7 @@ public class HashObject {
 
         HashMap<Students, String> person = new HashMap<>();
         for (Students students : s) {
-            person.put(students, students.getFirstName() + students.getLastName());
+            person.put(students, students.getFirstName()+" " + students.getLastName());
         }
 
         for (Students key : person.keySet()) {
