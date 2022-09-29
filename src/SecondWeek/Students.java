@@ -30,7 +30,12 @@ public class Students implements Comparable<Students>{
 
     }
 
-
-        //return this.GPA.compareTo(s.GPA);
+    @Override
+    public String toString() {
+        return "FirstName='" + FirstName + '\'' +
+                ", LastName='" + LastName + '\'' +
+                ", GPA=" + GPA
+               ;
+    }
 
     }
