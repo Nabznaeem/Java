@@ -11,11 +11,11 @@ import java.util.stream.Collectors;
 // Use Java 8 Lambdas and Streams API's.
 public class LamdaStream {
     public static void main(String[] args) {
-        /*String s1[] = {"hi", "hello", "and", "alps", "has", "name","are","ape"};
+        /*String s1[] = {"hi", "hello", "and", "name","are","ape"};
         Arrays.stream(s1).filter(s -> s.length() == 3).filter(s -> s.startsWith("a")).forEach(s -> System.out.println(s.toString()));
        */
        List<String> s = new ArrayList<>();
-        Collections.addAll(s,"hi","add","Are","hi","Ate","append");
+        Collections.addAll(s,"hi","alp","add","Are","hi","Ate","append");
 
         List<String> st=fin(s);
         st.forEach(x->System.out.println(x));
