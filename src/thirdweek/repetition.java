@@ -19,6 +19,5 @@ public class repetition {
                 .collect(Collectors.groupingBy(str -> str, LinkedHashMap::new, Collectors.counting()))
                 .forEach((k, v) -> System.out.println(k + " : " + v));
 
-
     }
 }
