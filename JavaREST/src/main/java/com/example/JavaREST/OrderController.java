@@ -17,7 +17,7 @@ public class OrderController {
     @PostMapping
     public String createOrder(@RequestBody Order order) {
 
-        System.out.println("Recieved an order with name" + order.getOrderName());
+        System.out.println("Received an order with name" + order.getOrderName());
 
         return "created an order with order Id = 1234";
 
