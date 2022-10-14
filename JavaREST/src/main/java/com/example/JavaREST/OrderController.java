@@ -11,7 +11,7 @@ public class OrderController {
 
     @GetMapping
     public String getOrder() {
-        return "Test Order 1";
+        return "Test Order";
     }
 
     @PostMapping
