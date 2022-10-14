@@ -1,12 +1,17 @@
 package com.example.JavaREST;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(path = "orders", consumes = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE},
+        produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
 
 public class OrderController {
 
     @GetMapping
     public String getOrder() {
-        return "Order Name";
+        return "Test Order 1";
     }
 
     @PostMapping
